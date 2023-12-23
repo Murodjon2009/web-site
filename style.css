@@ -1,0 +1,73 @@
+
+.h1_text_1 {
+    margin-top: 50px;
+    text-align: center;
+}
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto";
+}
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+button {
+    border: none;
+    background-color: unset;
+    cursor: pointer;
+}
+
+
+.nav {
+    background-color: #F3EDF7;
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.30);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px
+}
+.nav_lang {
+    position: relative;
+    overflow: hidden;
+    height: 25px;
+    min-width: 55px;
+}
+.uz_btn {
+        font-size: 20px;
+        font-weight: 500;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        position: absolute;
+        top: -100%;
+        left: 0;
+        transition: 0.5s;
+        opacity: 0;
+}
+.ru_btn {
+        font-size: 20px;
+        font-weight: 500;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        position: absolute;
+        top: -100%;
+        left: 0;
+        transition: 0.5s;
+        opacity: 0;
+}
+.active{
+        top: 0;
+        opacity: 1;
+}
+img {
+        width:25px;
+}
