@@ -1,7 +1,8 @@
 
-.h1_text_1 {
+.text {
     margin-top: 50px;
     text-align: center;
+    font-size: 40px;
 }
 
 
@@ -54,6 +55,18 @@ button {
 }
 .ru_btn {
         font-size: 20px;
+        font-weight: 500;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        position: absolute;
+        top: -100%;
+        left: 0;
+        transition: 0.5s;
+        opacity: 0;
+}
+.eng_btn {
+    font-size: 20px;
         font-weight: 500;
         display: flex;
         align-items: center;
